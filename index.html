@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The HTML reference describes all elements and attributes of HTML, including global attributes that apply to all elements."
+    />
+
+    <meta property="og:title" content="¡Learning Metadata!" />
+    <meta
+      property="og:description"
+      content="Look how i set up my web for look great to share a link."
+    />
+    <meta
+      property="og:image"
+      content="https://via.placeholder.com/1200x630.png?text=Mi+Web+en+Redes"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+
+    <!-- <meta http-equiv="refresh" content="10,url=https://nextwebcr.com/" /> -->
+
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 8px;
+        max-width: 400px;
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 2px 5px;
+      }
+    </style>
+
+    <title>Meta Tag</title>
+  </head>
+
+  <body>
+    <!--
+  
+  The <meta> HTML element represents metadata 
+  that cannot be represented by other meta-related elements, such as <base>, <link>, <script>, <style>, or <title>.
+
+    The type of metadata provided by the <meta> element can be one of the following:
+
+If the name attribute is set, the <meta> element provides document-level metadata that applies to the whole page.
+If the http-equiv attribute is set, the <meta> element acts as a pragma directive to simulate directives that could otherwise be given by an HTTP header.
+If the charset attribute is set, the <meta> element is a charset declaration, giving the character encoding in which the document is encoded.
+If the itemprop attribute is set, the <meta> element provides user-defined metadata.
+
+charset
+This attribute declares the document's character encoding. If the attribute is present, its value must be an ASCII case-insensitive match for the string "utf-8", because UTF-8 is the only valid encoding for HTML5 documents. <meta> elements which declare a character encoding must be located entirely within the first 1024 bytes of the document.
+
+content
+This attribute contains the value for the http-equiv or name attribute, depending on which is used.
+
+http-equiv
+Defines a pragma directive, which are instructions for the browser for processing the document. The attribute's name is short for http-equivalent because the allowed values are names of equivalent HTTP headers.
+
+media
+The media attribute defines which media the theme color defined in the content attribute should be applied to. Its value is a media query, which defaults to all if the attribute is missing. This attribute is only relevant when the element's name attribute is set to theme-color. Otherwise, it has no effect, and should not be included.
+
+name
+The name and content attributes can be used together to provide document metadata in terms of name-value pairs, with the name attribute giving the metadata name, and the content attribute giving the value.
+
+  -->
+
+    <h1>Meta Tag Test</h1>
+    <p>
+      If you can read "Cigueña" and "Action" correctly, the
+      <code>charset</code> funciona.
+    </p>
+
+    <div class="card">
+      <h3>How to test this webpage</h3>
+      <p>Follow the guide steps to see the metada in action.</p>
+    </div>
+
+    <script>
+      console.log("El script local funciona correctamente.");
+    </script>
+  </body>
+</html>
